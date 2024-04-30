@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "xghub-installer"
+version = "0.1.0"
+description = "xghub 安装工具"
+authors = ["yuanyan <1846865993@qq.com>"]
+readme = "README.md"
+packages = [{include = "xghub_installer"}]
+
+[tool.poetry.dependencies]
+python = ">=3.8,<3.12"
+qt-material = "^2.14"
+pyside6 = "^6.5.1.1"
+httpx = "^0.24.1"
+nuitka = "^1.6.3"
+psutil = "^5.9.5"
+pywin32 = "^306"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
